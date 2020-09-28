@@ -112,7 +112,7 @@ sudo apt install $(sed 's:\\ ::g' <<< $BASE_DEPS) $(sed 's:\\ ::g' <<< $GAZEBO_B
 cd ~/workspace/ &&
 git clone https://github.com/osrf/gazebo.git &&
 cd gazebo &&
-hg checkout gazebo9_9.14.0 &&
+git checkout gazebo9_9.14.0 &&
 mkdir build &&
 cd build &&
 cmake .. &&
