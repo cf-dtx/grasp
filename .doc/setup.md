@@ -94,6 +94,8 @@ Installed to:
 
 Version: 9.14.0
 
+:warning: Make sure you generate the configuration file with `cmake` and not `ccmake`! 
+
 Dependencies:
 1. Too many to count; Thankfully they provide an installer script for them.
 1. [DART](#dart---physics-simulator) (Optional)
